@@ -50,6 +50,7 @@ import org.gjt.sp.jedit.io.Encoding;
  */
 public class Native2ASCIIEncoding implements Encoding
 {
+        int i = 0;
 	//{{{ implements Encoding
 	@Nonnull
 	public Reader getTextReader(@Nonnull InputStream in) throws IOException
